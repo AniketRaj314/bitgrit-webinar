@@ -392,9 +392,25 @@ ul {
 
 #slide3 h1 {
     position: absolute;
-    font-size: 40px;
+    font-size: 50px;
     color: white;
-    left: 2.5em;
+    left: 3em;
+    top: 2.2em;
+}
+
+#slide3 h2 {
+    color: white;
+    position: absolute;
+    top: 6em;
+    font-size: 45px;
+    line-height: 0.5em;
+}
+
+#slide3 h2.subtitle {
+    top: 14em;
+    font-size: 35px;
+    line-height: 1em;
+    opacity: 0.5;
 }
 
 #slide6 h1 {
@@ -424,9 +440,9 @@ ul {
 #slide4 h2 {
     color: white;
     position: absolute;
-    font-size: 40px;
-    top: 3em;
-    left: 6.4em;
+    font-size: 50px;
+    top: 2em;
+    left: 7.5em;
 }
 
 #slide4 ul{
@@ -435,6 +451,72 @@ ul {
 }
 
 #slide4 li {
+    padding: 32px;
+}
+
+#slide14 h2 {
+    color: white;
+    position: absolute;
+    font-size: 40px;
+    top: 3em;
+    left: 6.4em;
+}
+
+#slide15 h2 {
+    color: white;
+    position: absolute;
+    font-size: 40px;
+    top: 3em;
+    left: 7.5em;
+}
+
+#slide15 h1.second {
+    position: absolute;
+    top: 10em;
+}
+
+#slide15 p.second {
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    top: 17em;
+    left: 5em;
+}
+
+#slide15 h1.third {
+    position: absolute;
+    top: 14.5em;
+}
+
+#slide15 p.third {
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    top: 23.5em;
+    left: 5em;
+}
+
+#slide15 p {
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    top: 10em;
+    left: 5em;
+}
+
+#slide15 h1 {
+    color: white;
+    position: absolute;
+    font-size: 35px;
+    top: 5.2em;
+}
+
+#slide14 ul{
+    position: absolute;
+    top: 6em;
+}
+
+#slide14 li {
     padding: 32px;
 }
 
