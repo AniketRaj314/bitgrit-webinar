@@ -60,7 +60,7 @@ body {
 ul {
     list-style: none;
     font-size: 30px;
-    color: gray;
+    color: white;
 }
 blockquote, q {
     quotes: none;
@@ -124,7 +124,7 @@ a:hover,
 a:focus {
     /*background: rgba(255,255,255,1);
     text-shadow: -1px -1px 2px rgba(100,100,100,0.5);*/
-    color: black;
+    color: white;
 }
 
 /*
@@ -224,7 +224,7 @@ a:focus {
     color: rgb(102, 102, 102);
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
 
-    background: rgb(255,255,255);
+    background: rgb(2, 0, 84);
 
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
@@ -246,19 +246,27 @@ ul {
     white-space: nowrap;
 }
 #slide12 h2 {
-    color: black;
+    color: white;
     position: absolute;
-    font-size: 50px;
-    top: 1.5em;
-    left: 3.4em;
+    font-size: 40px;
+    top: 2.5em;
+    left: 6em;
 }
 
 #slide2 h2{
-    color: black;
+    color: white;
     position: absolute;
     font-size: 50px;
-    top: 2.5em;
-    left: 6.4em;
+    top: 45%;
+    left: 33%;
+}
+
+#slide2 h2.subtitle {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    top: 55%;
+    left: 18%;
 }
 
 #slide2 ul {
@@ -271,14 +279,23 @@ ul {
     padding: 12px;
 }
 
-#apli ul {
+#topics ul {
     position: absolute;
-    top: 7em;
+    top: 9em;
 }
 
-#apli li {
-    font-size: 28px;
+#topics li {
+    color: white;
+    font-size: 36px;
     padding: 12px;
+}
+
+#topics h2 {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    top: 22%;
+    left: 40%;
 }
 
 .slide#slide3, .slide#slide6 {
@@ -296,7 +313,7 @@ ul {
     color: rgb(102, 102, 102);
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
 
-    background: rgb(255,255,255);
+    background: rgb(2, 0, 84);
 
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
@@ -356,7 +373,7 @@ ul {
     position: absolute;
     top: 3.3em;
     left: 0em;
-    color: #353333;
+    color: white;
 }
 
 #leader img {
@@ -368,27 +385,27 @@ ul {
 #leader h2 {
     font-size: 69px;
     position: absolute;
-    top: 5em;
+    top: 3.5em;
     left: 0.5em;
-    color: #353333;
+    color: white;
 }
 
 #slide3 h1 {
     position: absolute;
     font-size: 40px;
-    color: black;
+    color: white;
     left: 2.5em;
 }
 
 #slide6 h1 {
     position: absolute;
     font-size: 40px;
-    color: black;
+    color: white;
     left: 1em;
 }
 
 #slide5 h2 {
-    color: black;
+    color: white;
     position: absolute;
     font-size: 40px;
     top: 3.5em;
@@ -405,7 +422,7 @@ ul {
 }
 
 #slide4 h2 {
-    color: black;
+    color: white;
     position: absolute;
     font-size: 40px;
     top: 3em;
@@ -462,12 +479,12 @@ ul {
     bottom: 0em;
     left: 0.2em;
     font-size: 27px;
-    color: black;
+    color: white;
 }
 
 #leader q a {
     font-size: 28px;
-    color: gray;
+    color: white;
 }
 
 .creed h1 {
@@ -519,7 +536,7 @@ ul {
     position: absolute;
     bottom: 5em;
     left: -3em;
-    color: gray;
+    color: white;
 
     -webkit-transform: rotate(-90deg);
     -moz-transform:    rotate(-90deg);
@@ -533,7 +550,7 @@ ul {
     position: absolute;
     bottom: 7em;
     left: -4em;
-    color: gray;
+    color: white;
 
     -webkit-transform: rotate(-90deg);
     -moz-transform:    rotate(-90deg);
@@ -556,7 +573,7 @@ ul {
     bottom: 6em;
     right: 4em;
     font-size: 30px;
-    color: gray;
+    color: white;
 }
 
 #badscience {
@@ -569,84 +586,84 @@ ul {
 }
 
 #notscience p {
-    color: gray;
+    color: white;
     font-size: 100px;   
 }
 
 #notscience b {
-    color: black;
+    color: white;
     font-size: 145px;   
 }
 
 #scienceiseasy {
-    color: gray;
+    color: white;
     font-size: 100px;
 }
 
 #scienceiseasy b {
-    color: black;
+    color: white;
     font-size: 114px;
 }
 
 #notscale p {
     font-size: 77px;
-    color: gray;
+    color: white;
 }
 
 #notscale b {
     line-height: 250px;
     font-size: 314px;
-    color: black;
+    color: white;
 }
 
 #sciencewithoutdata p {
     font-size: 77px;
-    color: gray;
+    color: white;
 }
 
 #sciencewithoutdata b {
     line-height: 200px;
     font-size: 300px;
-    color: black;
+    color: white;
 }
 
 #sciencewithoutdata .proper {
     line-height: 80px;
     font-size: 83px;
-    color: gray;
+    color: white;
 }
 
 #sciencewithoutdata .science {
     line-height: 140px;
     font-size: 160px;
-    color: black;
+    color: white;
 }
 
 #gold h1 {
     line-height: 130px;
     font-size: 145px;
-    color: black;
+    color: white;
     text-align:center;
 }
 
 #gold p {
     line-height: 80px;
     font-size: 46px;
-    color: gray;
+    color: white;
     text-align:center;
 }
 
 #abtesting b {
     font-size: 430px;
     line-height: 230px;
-    color: black;
+    color: white;
 }
 
 #abtesting p {
     font-size: 220px;
     line-height: 180px;
     text-align:center;
-    color: gray;
+    color: white;
 }
 
 #abtestingexample {
@@ -679,7 +696,7 @@ ul {
 }
 
 #patterns p {
-    color: gray;
+    color: white;
 }
 
 #significance {
@@ -687,7 +704,7 @@ ul {
 }
 
 #significance p {
-    color: gray;
+    color: white;
 }
 
 #modata {
@@ -695,7 +712,7 @@ ul {
 }
 
 #modata p {
-    color: gray;
+    color: white;
 }
 
 #missingpatterns {
@@ -703,7 +720,7 @@ ul {
 }
 
 #missingpatterns p {
-    color: gray;
+    color: white;
 }
 
 #simulation ul {
@@ -737,11 +754,11 @@ ul {
 
 #simpson i {
     font-size: 32px;
-    color: gray;
+    color: white;
 }
 
 .axis {
-    color: gray;
+    color: white;
     font-size: 30px;
     position: absolute;
     left: -5em;
@@ -776,7 +793,7 @@ ul {
 }
 
 .simpsonweek i {
-    color: gray;
+    color: white;
 }
 
 .red {
@@ -792,7 +809,7 @@ ul {
 }
 
 .pval {
-    color: gray;
+    color: white;
     font-size: 30px;
     position: absolute;
     bottom: -3em;
@@ -800,11 +817,11 @@ ul {
 }
 
 #simpsonreversed p {
-    color: gray;
+    color: white;
 }
 
 #thetwops p {
-    color: gray;
+    color: white;
     font-size: 64px;
     text-align:center;
 }
@@ -836,7 +853,7 @@ ul {
 #predictionprofit li:before { 
     content: counter(item) ". "; 
     counter-increment: item;
-    color: gray;
+    color: white;
 }
 
 #basket ol {
@@ -860,7 +877,7 @@ ul {
 #basket li:before { 
     content: counter(item) ". "; 
     counter-increment: item;
-    color: gray;
+    color: white;
 }
 
 #basket h1 {
@@ -894,15 +911,15 @@ ul {
 }
 
 #profitprediction p {
-    color: gray;
+    color: white;
 }
 
 #proxy p {
-    color: gray;
+    color: white;
 }
 
 #references {
-    color: black;
+    color: white;
 }
 
 
