@@ -425,6 +425,29 @@ ul {
     opacity: 0.5;
 }
 
+#slide13 h1 {
+    position: absolute;
+    font-size: 50px;
+    color: black;
+    left: 3em;
+    top: 2.2em;
+}
+
+#slide13 h2 {
+    color: black;
+    position: absolute;
+    top: 5em;
+    font-size: 45px;
+    line-height: 0.5em;
+}
+
+#slide13 h2.subtitle {
+    top: 14em;
+    font-size: 35px;
+    line-height: 1em;
+    opacity: 0.5;
+}
+
 #slide6 h1 {
     position: absolute;
     font-size: 40px;
