@@ -231,6 +231,18 @@ a:focus {
     line-height: 36px;
     letter-spacing: -1px;
 }
+
+.hideMeme {
+    display: none;
+}
+
+.showMeme {
+    display: block;
+}
+
+option {
+    font-size: 0.8em;
+}
 ul {
     list-style-type: square;
 }
@@ -430,11 +442,11 @@ ul {
 
 #slide5 ul{
     position: absolute;
-    top: 7em;
+    top: 14em;
 }
 
 #slide5 li {
-    padding: 24px;
+    padding: 4px;
 }
 
 #slide4 h2 {
