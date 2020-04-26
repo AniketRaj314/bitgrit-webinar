@@ -1,5 +1,4 @@
-const SHA256 = require('crypto-js/sha256');
-
+const SHA256 = require('crypto-js/sha256.js')
 class Block {
     constructor(index, timestamp, data, previousHash = '') {
         this.index = index;
